@@ -1,7 +1,7 @@
 
 .setbg {
   background-position: center;
-  /* background-attachment: fixed; */
+  background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-origin: initial;
@@ -61,6 +61,15 @@
 .zoom-in {
   animation: zoomIn 1.2s;
 }
+  /*
+.moon {
+ border-top: 20px solid rgb(182, 155, 3);
+  border-right: 2px solid rgb(182, 155, 3);
+  border-left: 2px solid rgb(182, 155, 3);
+  padding: 10px 50px;
+  border-radius: 60%;
+  box-shadow: inset 0 30px 30px .1px rgb(154, 108, 0), 0 -8px 2px .1px rgb(154, 108, 0);
+} */
 
 @keyframes zoomIn {
   0% {
@@ -72,7 +81,7 @@
 }
 
 .fade-in {
-  animation: fadeIn 1.2s;;
+  animation: fadeIn 1.2s;
 }
 
 @keyframes fadeIn {
@@ -82,4 +91,33 @@
   100% {
     opacity: 1;
   }
+}
+
+.bg-glass {
+  background-color: rgba(125, 137, 133, 0.2);
+}
+
+.bg-glass-tick {
+    background-color: rgba(84, 104, 92, 0.493); 
+}
+
+.inner-shadow {
+  box-shadow: inset 0 0 10px 2px rgba(193, 206, 193, 0.231);
+}
+
+.inner-shadow-lg {
+  box-shadow: inset 0 0 10px 5px rgba(193, 206, 193, 0.231);
+}
+
+.position-fixed {
+  position: static;
+}
+
+/* .inner-shadow-xl {
+  transition: all 1s;
+  box-shadow: inset 0 0 25px 8px rgba(193, 206, 193, 0.231);
+} */
+.inner-shadow-lg:hover {
+  transition: all .1s;
+  box-shadow: inset 0 0 25px 8px rgba(193, 206, 193, 0.231);
 }

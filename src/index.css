@@ -4,6 +4,12 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #041415;
+  background-image: url(images/bg3.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-origin: initial;
+  background-clip: initial;
 
 }
