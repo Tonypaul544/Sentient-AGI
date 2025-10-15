@@ -5,8 +5,9 @@ import './Tailwind.custom.css';
 
  export default function Hero() {
   document.title = "Sentient Open Source";
-  const year = new Date().getFullYear();
-  let BGImg = './images/sent2.jpg';
+  // const year = new Date().getFullYear();
+
+  // let BGImg = './images/sent2.jpg';
 
   return(
     <>
