@@ -8,8 +8,8 @@ function App() {
 
   return (
     <>
-      <div className='flex h-[100vh] w-full '>
-        <div className="flex w-[30%] ml-[-12px]"><SideBar /></div>
+      <div className='flex h-[100vh] w-[100%]'>
+        <div className="flex w-[30%] ml-[-12px]  max-sm:ml-0  max-sm:z-0"><SideBar /></div>
         <div className="flex flex-col w-full">
           <Header />
           <Hero />

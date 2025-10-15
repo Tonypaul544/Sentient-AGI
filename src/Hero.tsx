@@ -18,8 +18,8 @@ import RolesSection from './roles'
         </div>
            {/* TITLE DIV */}
           <div className="flex flex-col items-center justify-center flex-1 justify-between gap-3 slide-up h-[100em]">
-            <div className="flex">
-              <h1 className="text-white font-bold text-6xl text-shadow-md max-sm:text-md">Sentient Open Source</h1>
+            <div className="flex max-sm:w-[100%] justify-center">
+              <h1 className="text-white font-bold text-6xl text-shadow-md max-sm:text-md max-sm:text-[28px]">Sentient Open Source</h1>
             </div>
             
             <div className="flex">
