@@ -4,8 +4,10 @@ export default function Header() {
 
   return(
     <>
-      <div className="flex items-center justify-center bg-green-400 fixed w-[100%] h-[50px] max-sm:w-[90%] fixed  max-sm:items-right max-sm:right-0">
-        <h1 className="text-xl text-white font-bold">Hello Header</h1>
+      <div className="flex mx-auto fixed bg-red-200 m-auto text-center justify-center items-center">
+        <div>
+          <h1 className="flex text-xl text-white font-bold text-center">Hello Header</h1>
+        </div>
       </div>
     </>
   )
