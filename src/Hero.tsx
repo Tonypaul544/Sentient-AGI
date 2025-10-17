@@ -13,8 +13,8 @@ import { ImEnter } from "react-icons/im";
     <>
       <div className="hero flex flex-col w-[100%] h-full justify-evenly fade-in mx-auto ">
 
-        <div className="flex flex-col w-full justify-between items-center h-[100vh] pt-12 max-md:pt-0 max-md:h-[100vh]">
-          <div className="flex flex-col w-full h-auto items-center justify-between m-auto max-sm:h-auto max-sm:pt-[0] max-md:mb-30 max-md:mt-[20px] justify-etween">
+        <div className="flex flex-col w-full justify-between items-center h-[100vh] pt-12">
+          <div className="flex flex-col w-full h-auto items-center justify-between m-auto max-md:mt-[20px] justify-etween">
             {/* <div className="flex w-full h-content items-center justify-center gap-2 slide-down">
               <img src={Logo} alt="Sentient Logo" className="w-[25px] h-[25px] rounded-lg logo" />
               <p className="text-[#fd688e] font-bold text-[17px] expand max-sm:hidden">AGI</p>
@@ -28,7 +28,7 @@ import { ImEnter } from "react-icons/im";
                 </div>
               </div>
               <div className="flex max-sm:w-[100%] justify-center">
-                <h1 className="text-white font-bold text-7xl text-shadow-md max-sm:text-[37px]">Sentient Open Source</h1>
+                <h1 className="text-white font-bold text-7xl text-shadow-md max-md:text-[37px]">Sentient Open Source</h1>
               </div>
               
               <div className="flex">

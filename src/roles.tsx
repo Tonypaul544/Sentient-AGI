@@ -8,7 +8,7 @@ export default function RolesSection() {
 
   return(
     <>
-      <div className="flex flex-col w-[60%] h-auto p-5 m-auto items-center justify-center gap-5 max-md:w-[100%] mt-20 max-md:mt-5">
+      <div className="flex flex-col w-[60%] h-auto p-5 m-auto items-center justify-center gap-5 max-md:w-[100%] mt-20">
         <div className="flex flex-col">
         <h1 className="text-white font-bold text-lg slide-up">SentientAGI Contribution roles</h1>
         </div>
