@@ -94,7 +94,7 @@
 }
 
 .bg-glass {
-  background-color: rgba(125, 137, 133, 0.2);
+  background-color: rgba(16, 35, 28, 0.13);
 }
 
 .bg-glass-tick {
@@ -111,6 +111,10 @@
 
 .position-fixed {
   position: static;
+}
+
+.bg-transparent-sm {
+  background-color: rgba(11, 12, 12, 0.985);
 }
 
 /* .inner-shadow-xl {
