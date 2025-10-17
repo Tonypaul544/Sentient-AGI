@@ -20,7 +20,7 @@ import { ImEnter } from "react-icons/im";
               <p className="text-[#fd688e] font-bold text-[17px] expand max-sm:hidden">AGI</p>
             </div> */}
             {/* TITLE DIV */}
-            <div className="flex flex-col items-center justify-evenly gap-3 slide-up w-full h-content">
+            <div className="flex flex-col items-center justify-evenly gap-3 slide-up w-full h-content max-md:mt-[25%]">
               <div className="flex w-content h-[35px] rounded-lg items-center justify-center gap-2 bg-transparent border border-1 p-1 pr-3 fade-in mt-1">
                 <div className="flex w-full h-content items-center justify-etween gap-2 rounded-md p-2">
                   <ImEnter />

@@ -2,6 +2,9 @@ import Logo from '../src/images/SentientPFP.jpg'
 import { FaDiscord } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import './Tailwind.custom.css';
+import { GiHamburgerMenu } from "react-icons/gi";
+
+
 // import { ImEnter } from "react-icons/im";
 
 export default function Header() {
@@ -22,13 +25,16 @@ export default function Header() {
           <p className="text-white text-sm expand font-bold max-md:hover:bg-[#525653]  max-md:px-5  max-md:py-1  max-md:rounded-md  max-md:w-[200px]  max-md:text-center">Checkout</p>
         </div>
 
-        <div className="flex w-content gap-3 justify-between">
-          <div className="flex p-2 bg-glass-tick inner-shadow rounded-lg">
-            <FaDiscord />
+        <div className="flex gap-5 items-center">
+          <div className="flex w-content gap-3 justify-between">
+            <div className="flex p-2 bg-glass-tick inner-shadow rounded-lg">
+              <FaDiscord />
+            </div>
+            <div className="flex p-2 bg-glass-tick inner-shadow rounded-lg">
+              <BsTwitterX />
+            </div>
           </div>
-          <div className="flex p-2 bg-glass-tick inner-shadow rounded-lg">
-            <BsTwitterX />
-          </div>
+          <GiHamburgerMenu className='text-[20px] hidden max-md:flex' />
         </div>
       </div>
     </>
