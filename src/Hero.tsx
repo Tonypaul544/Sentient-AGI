@@ -28,7 +28,7 @@ import { ImEnter } from "react-icons/im";
                 </div>
               </div>
               <div className="flex max-sm:w-[100%] justify-center">
-                <h1 className="text-white font-bold text-7xl text-shadow-md max-md:text-[37px]">Sentient Open Source</h1>
+                <h1 className="text-white font-bold text-6xl text-shadow-md max-md:text-[35px]">Sentient Open Source</h1>
               </div>
               
               <div className="flex">
