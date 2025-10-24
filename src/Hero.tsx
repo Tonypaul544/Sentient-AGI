@@ -11,9 +11,9 @@ import { ImEnter } from "react-icons/im";
 
   return(
     <>
-      <div className="hero flex flex-col w-[100%] h-full justify-evenly fade-in mx-auto ">
+      <div className="hero flex flex-col w-[100%] h-full justify-evenly fade-in mx-auto">
 
-        <div className="flex flex-col w-full justify-between items-center h-[100vh] max-md:h-auto pt-1">
+        <div className="flex flex-col w-full justify-between items-center h-[100vh] max-md:h-auto pt-1 bg-gray-700">
           <div className="flex flex-col w-full h-content items-center justify-between m-auto max-md:mt-[0px] justify-etween p-5">
             {/* <div className="flex w-full h-content items-center justify-center gap-2 slide-down">
               <img src={Logo} alt="Sentient Logo" className="w-[25px] h-[25px] rounded-lg logo" />
