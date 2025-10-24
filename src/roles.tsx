@@ -8,14 +8,14 @@ export default function RolesSection() {
 
   return(
     <>
-      <div className="flex flex-col w-[60%] h-auto p-5 m-auto items-center justify-center gap-7 max-md:w-[100%] mt-2 pb-10">
+      <div className="flex flex-col w-[60%] h-auto p-5 m-auto items-center justify-center gap-7 max-md:w-[100%] mt-10 max-md:mt-15 pb-10">
         <div className="flex flex-col">
         <h1 className="text-white font-bold text-xl slide-up">SentientAGI Contribution roles</h1>
         </div>
 
         <div className="flex max-md:flex-col w-[100%] h-full justify-center items-center gap-5 max-md:gap-1  transistion-all duration-500">
 
-          <div className="flex h-[80px] w-[120px] max-md:w-[90%] max-md:h-[120px] m-auto  max-md:mb-2 bg-red-100 bg-glass rounded-xl flex-col items-center justify-center gap-2 inner-shadow-lg hover:inner-shadow-xl hover:scale-[1.05] transistion-all duration-500">
+          <div className="flex h-[80px] w-[120px] max-md:w-[90%] max-md:h-[120px] max-md:m-auto  max-md:mb-2 bg-red-100 bg-glass rounded-xl flex-col items-center justify-center gap-2 inner-shadow-lg hover:inner-shadow-xl hover:scale-[1.05] transistion-all duration-500">
             <div className="flex p-2 bg-glass-tick inner-shadow rounded-lg">
               <BsFillBuildingsFill />
             </div>

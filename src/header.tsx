@@ -23,7 +23,7 @@ export default function Header() {
           {/* <p className="text-[#fff] font-bold text-[23px] expand">SentientAGI</p> */}
         </div>
 
-        <div id="navBar" className="flex gap-4 max-sm:gap-3 max-sm:w-[100%]  h-auto mt-1 max-md:flex-col max-md:w-[500px]  max-md:absolute  max-md:items-center max-md:bg-[#222623] max-md:mx-auto max-md:gap-5 right-0 top-9  max-md:py-3 max-md:hidden mr-17" style={isOpen ? {display: 'none'} : {display: 'flex'}}>
+        <nav id="navBar" className="flex gap-4 max-sm:gap-3 max-sm:w-[100%]  h-auto mt-1 max-md:flex-col max-md:w-[500px]  max-md:absolute  max-md:items-center max-md:bg-[#222623] max-md:mx-auto max-md:gap-5 right-0 top-9  max-md:py-3 max-md:hidden mr-17" style={isOpen ? {display: 'none'} : {display: 'flex'}}>
 
           <Link to="about" smooth duration={500} className="text-white text-sm expand font-bold px-5 py-1 rounded-md hover:bg-[#525653]  max-md:px-5  max-md:py-1  max-md:rounded-md  max-md:w-[200px]  max-md:text-center hover:inner-shadow hover:scale-[1.096] 
            active:bg-gray-500 transistion-all duration-300">About</Link>
@@ -33,7 +33,7 @@ export default function Header() {
 
           <Link to="about" smooth duration={500} className="text-white text-sm expand font-bold  px-5 py-1 rounded-md hover:bg-[#525653]  max-md:px-5  max-md:py-1  max-md:rounded-md  max-md:w-[200px]  max-md:text-center hover:scale-[1.096] 
            active:bg-gray-500 transistion-all duration-300">Checkout</Link>
-        </div>
+        </nav>
 
         {/* NAVIGATION & SOCIALS */}
         {/* <Element name="about"><about /></Element>
